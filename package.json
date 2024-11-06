@@ -24,6 +24,7 @@
     "rollup-plugin-serve": "^1.1.1"
   },
   "scripts": {
-    "start": "rollup -c -w"
+    "start": "rollup -c -w",
+    "build": "rollup -c"
   }
 }

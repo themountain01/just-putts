@@ -30,16 +30,16 @@ export default {
             verbose: true,
         }),
 
-        serve({
-            open: true, 
-            contentBase: 'dist', 
-            port: 3000,
-        }),
+        // serve({
+        //     open: true, 
+        //     contentBase: 'dist', 
+        //     port: 3000,
+        // }),
 
-        livereload({
-            watch: ['dist', 'public'],
-            delay: 2,
-            verbose: true,
-        }),
+        // livereload({
+        //     watch: ['dist', 'public'],
+        //     delay: 2,
+        //     verbose: true,
+        // }),
     ],
 };
