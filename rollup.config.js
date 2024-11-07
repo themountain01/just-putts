@@ -30,16 +30,18 @@ export default {
             verbose: true,
         }),
 
-        serve({
-            open: true, 
-            contentBase: 'dist', 
-            port: 3000,
-        }),
+        // Commented out as interferes with build and deploy process on Netlify
+        
+        // serve({
+        //     open: true, 
+        //     contentBase: 'dist', 
+        //     port: 3000,
+        // }),
 
-        livereload({
-            watch: ['dist', 'public'],
-            delay: 2,
-            verbose: true,
-        }),
+        // livereload({
+        //     watch: ['dist', 'public'],
+        //     delay: 2,
+        //     verbose: true,
+        // }),
     ],
 };
